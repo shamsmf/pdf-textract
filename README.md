@@ -1,6 +1,6 @@
 <h1>PDF FORM READER</h1>
 
-This project is designd in pyhton language to read a pdf file and extract field values into spreadsheet.
+This project is developed using python to read a pdf file and extract field values into a spreadsheet.
 It will return the file path of the xlsx file.
 
 <h4>Installation<h4>
