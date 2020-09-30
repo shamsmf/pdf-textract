@@ -1,15 +1,13 @@
 <h1>PDF FORM READER</h1>
 
-This project is designd in pyhton language to read a pdf file and extract field values into spreadsheet.
+This project is developed using python to read a pdf file and extract field values into a spreadsheet.
 It will return the file path of the xlsx file.
 
 <h4>Installation<h4>
 PDF Form reader requires Python 3.6.9 to run.
 
 <h5>Install the requirements:</h5>
-```
-pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
 
 <h5>Set credentials in the AWS credentials profile file on your local system, located at:</h5>
 ~/.aws/credentials on Linux, macOS, or Unix.
