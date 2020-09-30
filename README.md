@@ -1,17 +1,17 @@
-<h1>PDF FORM READER<h1>
+<h1>PDF FORM READER</h1>
 
 This project is designd in pyhton language to read a pdf file and extract field values into spreadsheet.
 It will return the file path of the xlsx file.
 
-####Installation
+<h4>Installation<h4>
 PDF Form reader requires Python 3.6.9 to run.
 
-#####Install the requirements:
+<h5>Install the requirements:</h5>
 ```
 pip install -r requirements.txt
 ```
 
-#####Set credentials in the AWS credentials profile file on your local system, located at:
+<h5>Set credentials in the AWS credentials profile file on your local system, located at:</h5>
 ~/.aws/credentials on Linux, macOS, or Unix.
 
 C:\Users\USERNAME\.aws\credentials on Windows
@@ -24,18 +24,18 @@ aws_access_key_id = your_access_key_id
 aws_secret_access_key = your_secret_access_key
 ```
 
-#####Replace S3 Bucket details
+<h5>Replace S3 Bucket details</h5>
 Where input pdf files will be stored.
 ```
 s3BucketName = awss3_bucket_name
 ```
 
-#####Run the project:
+<h5>Run the project:</h5>
 ```
 python3 code_file.py
 ```
 
-#####Enter the pdf file full path as input.
+<h5>Enter the pdf file full path as input.</h5>
 
 It will return the out xlsx file path.
 File Path: ./input_sheet_output.xlsx
