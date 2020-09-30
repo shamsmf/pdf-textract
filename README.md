@@ -38,6 +38,8 @@ python3 code_file.py
 <h5>Enter the pdf file full path as input.</h5>
 
 It will return the out xlsx file path.
+Example input_form_a.pdf and input_form_b.pdf files are available in the folder input-pdfs.
+The third file, output_values.png highlights the values need to extract from the sample statements.
 File Path: ./input_sheet_output.xlsx
 
 Reference: [Amazon Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html)
